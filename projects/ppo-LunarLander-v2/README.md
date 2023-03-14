@@ -9,16 +9,11 @@ model-index:
 - name: PPO
   results:
   - task:
-      type: reinforcement-learning
+      type: reinforcement-learning with PPO
       name: reinforcement-learning
-    dataset:
-      name: LunarLander-v2
-      type: LunarLander-v2
     metrics:
     - type: mean_reward
       value: 283.98 +/- 15.75
-      name: mean_reward
-      verified: false
 ---
 
 # **PPO** Agent playing **LunarLander-v2**
