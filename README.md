@@ -15,7 +15,7 @@
 
 # Machine Learning Portfolio/Notebook
 </div>
-This repository contains my personal notes, my journey to learning machine learning and a collection of machine learning projects that I have worked on as part of it. The repository is organized into notes and projects. Each project is organized into its own folder and includes its own README.md file with a resume of the project and its findings.
+This repository contains my **personal notes**, **Machine Learning/Deep Learning** models I have built, and **Machine Learning/Deep Learning** projects that I have worked on as part of my journey to **learn Machine Learning and Deep Learning**. The repository is organized into notes and projects. Each project is organized into its own folder and includes its own README.md file with a resume of the project and its findings.
 <p>
 
 I started this repository to <b>document</b> my progress and to <b>showcase</b> the skills I have learned.
