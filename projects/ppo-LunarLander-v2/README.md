@@ -1,32 +1,31 @@
----
-library_name: stable-baselines3
-tags:
-- LunarLander-v2
-- deep-reinforcement-learning
-- reinforcement-learning
-- stable-baselines3
-model-index:
-- name: PPO
-  results:
-  - task:
-      type: reinforcement-learning with PPO
-      name: reinforcement-learning
-    metrics:
-    - type: mean_reward
-      value: 283.98 +/- 15.75
----
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![pytorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+<!-- [![Windows](https://img.shields.io/badge/Platform-Windows-0078d7.svg?style=for-the-badge)](https://en.wikipedia.org/wiki/Microsoft_Windows) -->
+<!-- [![License](https://img.shields.io/github/license/R3nzTheCodeGOD/R3nzSkin.svg?style=for-the-badge)](LICENSE) -->
 
 # **PPO** Agent playing **LunarLander-v2**
+</div>
+
 This is a trained model of a **PPO** agent playing **LunarLander-v2**
 using the [stable-baselines3 library](https://github.com/DLR-RM/stable-baselines3).
 
-## Usage (with Stable-baselines3)
-TODO: Add your code
+## Model
+In this repository you will find the PPO model/agent(not the notebook) that I made specifically to play **LunarLander-v2**, even though I trained it on **2 million** timesteps, It still had room for improvement with more timesteps.
 
+## Metrics
+My model was in the top 268/3031 in the
+[Hugging Face Leaderboard](https://huggingface.co/spaces/huggingface-projects/Deep-Reinforcement-Learning-Leaderboard), with a:
+- Mean Reward: <b>283.98</b>
+- Std Reward: <b>15.75</b>
+- Result: <b>268.23</b>
 
-```python
-from stable_baselines3 import ...
-from huggingface_sb3 import load_from_hub
+(check metrics on *results.json*)
+## PPO
+[Proximal Policy Optimization (PPO)](https://towardsdatascience.com/proximal-policy-optimization-ppo-explained-abed1952457b) is a SOTA Reinforcement Learning algorithm developed by OpenAI.
 
-...
-```
+<br>
+
+*a model by lipeeeee*
