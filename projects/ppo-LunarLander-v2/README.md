@@ -12,6 +12,10 @@
 This is a trained model of a **PPO** agent playing **LunarLander-v2**
 using the [stable-baselines3 library](https://github.com/DLR-RM/stable-baselines3).
 
+
+https://user-images.githubusercontent.com/62669782/225029816-ea96b0ea-5d85-47ad-b2ef-3872b4c93c9f.mp4
+
+
 ## Model
 In this repository you will find the PPO model/agent(not the notebook) that I made specifically to play **LunarLander-v2**, even though I trained it on **2 million** timesteps, It still had room for improvement with more timesteps.
 
