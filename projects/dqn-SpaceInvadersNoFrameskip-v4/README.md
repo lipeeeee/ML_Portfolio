@@ -83,3 +83,5 @@ My model was in the top 217/3712 in the
 - Mean Reward: <b>587.50</b>
 - Std Reward: <b>92.31</b>
 - Result: <b>495,19</b>
+
+*a model by lipeeeee.*
