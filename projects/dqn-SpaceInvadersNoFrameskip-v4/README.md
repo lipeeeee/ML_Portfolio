@@ -8,6 +8,7 @@
 
 # **DQN** Agent playing **SpaceInvadersNoFrameskip-v4**
 </div>
+
 This is a trained model of a **DQN** agent playing **SpaceInvadersNoFrameskip-v4**
 using the [stable-baselines3 library](https://github.com/DLR-RM/stable-baselines3)
 and the [RL Zoo](https://github.com/DLR-RM/rl-baselines3-zoo).
