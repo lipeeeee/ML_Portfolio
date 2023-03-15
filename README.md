@@ -15,7 +15,7 @@
 
 # Machine Learning Portfolio/Notebook
 </div>
-This repository contains my <b>personal notes</b>, some <b>Machine/Deep Learning</b> models I have built, and <b>Machine/Deep Learning</b> projects that I have worked on as part of my journey to <b>learn Machine Learning and Deep Learning</b>. The repository is organized into notes and projects. Each project is organized into its own folder(it's folder will have a prefix such as **log** for logistic regression **q** for q-learning, etc..) and includes its own README.md file with a resume of the project and its findings.
+This repository contains my <b>personal notes</b>, some <b>Machine/Deep Learning</b> models I have built, and <b>Machine/Deep Learning</b> projects that I have worked on as part of my journey to <b>learn Machine Learning and Deep Learning</b>. The repository is organized into notes and projects. Each project is organized into its own folder(it's folder will have a prefix such as <b>log</b> for logistic regression <b>q</b> for q-learning, etc..) and includes its own README.md file with a resume of the project and its findings.
 <p>
 
 I started this repository to <b>document</b> my progress and to <b>showcase</b> the skills I have learned.
