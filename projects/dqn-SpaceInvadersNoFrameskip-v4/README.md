@@ -1,27 +1,13 @@
----
-library_name: stable-baselines3
-tags:
-- SpaceInvadersNoFrameskip-v4
-- deep-reinforcement-learning
-- reinforcement-learning
-- stable-baselines3
-model-index:
-- name: DQN
-  results:
-  - task:
-      type: reinforcement-learning
-      name: reinforcement-learning
-    dataset:
-      name: SpaceInvadersNoFrameskip-v4
-      type: SpaceInvadersNoFrameskip-v4
-    metrics:
-    - type: mean_reward
-      value: 587.50 +/- 92.31
-      name: mean_reward
-      verified: false
----
+<div align="center">
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![pytorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+<!-- [![Windows](https://img.shields.io/badge/Platform-Windows-0078d7.svg?style=for-the-badge)](https://en.wikipedia.org/wiki/Microsoft_Windows) -->
+<!-- [![License](https://img.shields.io/github/license/R3nzTheCodeGOD/R3nzSkin.svg?style=for-the-badge)](LICENSE) -->
 
 # **DQN** Agent playing **SpaceInvadersNoFrameskip-v4**
+</div>
 This is a trained model of a **DQN** agent playing **SpaceInvadersNoFrameskip-v4**
 using the [stable-baselines3 library](https://github.com/DLR-RM/stable-baselines3)
 and the [RL Zoo](https://github.com/DLR-RM/rl-baselines3-zoo).
@@ -29,6 +15,16 @@ and the [RL Zoo](https://github.com/DLR-RM/rl-baselines3-zoo).
 The RL Zoo is a training framework for Stable Baselines3
 reinforcement learning agents,
 with hyperparameter optimization and pre-trained agents included.
+
+<div align="center">
+
+
+https://user-images.githubusercontent.com/62669782/225445423-9508d6f9-376c-4d6e-be06-272a36126ff5.mp4
+
+</div>
+
+## Model
+In this repository you will find the DQN model/agent(not the notebook) that I made specifically to play **Space Invaders on Atari**, even though I trained it on **2 million** timesteps, It still had room for improvement with more timesteps and a larger batch size. The training took **3h** with **2 million** timesteps
 
 ## Usage (with SB3 RL Zoo)
 
@@ -79,3 +75,10 @@ OrderedDict([('batch_size', 32),
              ('train_freq', 4),
              ('normalize', False)])
 ```
+
+## Metrics
+My model was in the top 217/3712 in the
+[Hugging Face Leaderboard](https://huggingface.co/spaces/huggingface-projects/Deep-Reinforcement-Learning-Leaderboard), with a:
+- Mean Reward: <b>587.50</b>
+- Std Reward: <b>92.31</b>
+- Result: <b>495,19</b>
