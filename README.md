@@ -19,3 +19,7 @@ This repository contains my <b>personal notes</b>, some <b>Machine/Deep Learning
 <p>
 
 I started this repository to <b>document</b> my progress and to <b>showcase</b> the skills I have learned.
+
+## Other Repo's
+
+You can find some more deep learning models I made on my [hugging face account](https://huggingface.co/lipee).
