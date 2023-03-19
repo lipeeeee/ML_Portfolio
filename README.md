@@ -20,6 +20,13 @@ This repository contains my <b>personal notes</b>, some <b>Machine/Deep Learning
 
 I started this repository to <b>document</b> my progress and to <b>showcase</b> the skills I have learned.
 
+## Notes
+
+The notes directory is organized into courses that I took:
+  - DeepLearning.AI - Deep Learning Specialization
+  - HuggingFace - Deep RL Course
+
+  
 ## Other Repo's
 
 You can find some more deep learning models I made on my [hugging face account](https://huggingface.co/lipee).
